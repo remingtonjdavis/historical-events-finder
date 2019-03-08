@@ -1,0 +1,12 @@
+.nav-menu {
+  display:flex;
+  justify-content: center;
+  height:60px;
+  width: 100%;
+  background-color: green;
+}
+.search-bar {
+  width:500px;
+  height:40px;
+  margin-top:7px;
+}
