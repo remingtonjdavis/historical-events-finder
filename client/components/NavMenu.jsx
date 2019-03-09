@@ -1,10 +1,11 @@
 import React from 'react';
 
-const navMenu = () => {
+const navMenu = ({handleSubmit, handleChange, value}) => {
   return (
     <div className="nav-menu">
-      <form>
-        <input type="text" className="search-bar" />
+      <h1>Historical Events Finder</h1>
+      <form onSubmit={handleSubmit}>
+        <input type="text" value={value} onChange={handleChange}className="search-bar" />
       </form>
     </div>
   )

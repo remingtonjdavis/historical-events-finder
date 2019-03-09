@@ -1,12 +1,55 @@
+.outer-container {
+  display:flex;
+  flex-direction:column;
+}
 .nav-menu {
   display:flex;
+  align-self:center;
+  flex-wrap: wrap;
   justify-content: center;
-  height:60px;
-  width: 100%;
-  background-color: green;
+  margin-top: 50px;
+  width: 60%;
+  background-color: white;
 }
 .search-bar {
   width:500px;
   height:40px;
-  margin-top:7px;
+  margin-top:5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-align:center;
+}
+.paginate {
+  display: flex;
+  flex-direction:row;
+}
+.pagination li {
+  display:inline-block;
+  font-size: 18px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.pagination .active {
+  font-weight:bold;
+}
+.pagination-container {
+  display:flex;
+  justify-content:center;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th {
+  margin:5px;
+  font-size:20px;
+  padding:10px;
+}
+td {
+  margin:5px;
+  padding:10px;
+}
+.date {
+  width: 80px;
+  text-align: center;
 }
